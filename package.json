@@ -1,0 +1,21 @@
+{
+  "name": "Markdown Editor",
+  "version": "1.0.0",
+  "description": "A basic markdown editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "Markdown",
+    "editor"
+  ],
+  "author": "LucasAlt",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "marked": "^0.3.6"
+  }
+}
