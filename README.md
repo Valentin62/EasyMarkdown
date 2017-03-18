@@ -1,5 +1,7 @@
 # Markdown Editor
 
+[![Download](https://img.shields.io/github/downloads/MrDragonXM15/MarkdownEditor/total.svg)](https://github.com/MrDragonXM15/MarkdownEditor/releases)
+
 This is a Markdown editor using [Electron](http://electron.atom.io/).
 
 ## How To Use
