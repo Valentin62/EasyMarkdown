@@ -23,4 +23,4 @@ Learn more about Electron and its API in the [documentation](http://electron.ato
 
 
 
-#### License [CC0 1.0 (Public Domain)](LICENSE.md)
+#### License [MIT License](LICENSE.md)
