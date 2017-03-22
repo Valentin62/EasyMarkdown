@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+
+    <link rel="stylesheet" href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse navbar-fixed" style="-webkit-app-region: no-drag;">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Coding'serv Markdown</a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+
+          <div class="btn-group" role="group">
+            <button id="min-btn" class="btn btn-info btn-sm"><i class="fa fa-window-minimize"></i></button>
+            <button id="max-btn" class="btn btn-warning btn-sm"><i class="fa fa-window-maximize"></i></button>
+            <button id="close-btn" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+	<div class="alert alert-danger"><center><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Caution,please read <a href="caution.html">this</a> before using the application.</center></div>
+      <div class="starter-template" style="padding-top: 80px; text-align: center;">
+
+        <div id="editor">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="">Put your text here :</label>
+                <textarea v-model="input" class="form-control" rows="12"></textarea>
+              </div>
+            </div>
+          <div class="col-md-6">
+            <label for="">Render :</label>
+                <div v-html="compiled"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div> <!-- editor -->
+
+    </div><!-- /.container -->
+
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; 2017 <a href="https://github.com/MrDragonXM15">MrDragonXM15</a> and <a href="https://github.com/Ern0xDev">@Ern0xDev</a> - <a href="about.html">about</a></span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="renderer.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.4/vue.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+
+</html>

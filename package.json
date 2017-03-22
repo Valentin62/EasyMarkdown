@@ -1,7 +1,7 @@
 {
-  "name": "MarkdownEditor",
+  "name": "electron-quick-start",
   "version": "1.0.0",
-  "description": "A basic markdown editor",
+  "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -9,13 +9,20 @@
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
-    "Markdown",
-    "editor"
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
   ],
-  "author": "LucasAlt",
+  "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^1.4.1",
-    "marked": "^0.3.6"
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "marked": "^0.3.6",
+    "vue": "^2.2.4"
   }
 }
