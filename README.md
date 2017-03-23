@@ -28,5 +28,4 @@ Learn more about Electron and its API in the [documentation](http://electron.ato
 **Project developed by : MrDragonXM15 and Ern0xDev**
 
 
-
 #### License [MIT License](LICENSE.md)
